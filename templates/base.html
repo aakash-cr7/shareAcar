@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+    
+    <!-- Our custom stylesheet -->
+    <link href="css/custom1.css" rel="stylesheet">    
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    {% include 'navbar.html' %}
+    
+    {% for rides in upcoming_rides_list%}
+                <li>{{rides.user.username}} from {{rides.user.workplace}} to {{rides.destination}} at {{rides.time}} sharp</li>
+        {%endfor%}
+        <!--form method='POST' action=' ' >{%csrf_token%}
+            {{form.as_p}}
+        </form-->
+    
+    <!-- Main title Pic -->
+    <img src="images/carpool.png" class="carpool"/>
+    	<form method='POST' action=''>{% csrf_token %}
+	    {{form.as_p}}
+	    <input type="submit">
+	</form>
+    <button type="button" class="btn btn-info btn-block signMe"><a href="/signup">Sign Up</a></button>
+    <hr>
+    <!-- Features -->
+     <div class="info">
+        <div class="para">
+          <h1><span>L</span>ets <span>C</span>arpool!</h1>
+          <p style="font-size: 20px; color:green; font-family: comic Sans Ms"> <span style="color:blue">F</span>ed up of taking metro and busses back home, want to catch a ride? Just Sign Up and
+          	  book your ride home. Simple and easy to use, just choose your ride according to your final destination and you are ready to GO!  </p>
+        </div>
+        <div class="pic">
+            <img class="featurette-image img-responsive" src="static/carpooling1.jpg" alt="Generic placeholder image" style="width: 550px; height: 250px;">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-circle" src="images/akki.JPG" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2><span>A</span>akash Tyagi</h2>
+        <br>B.Tech(2013-17), B.P.I.T. Rohini<br><br>
+        Frontend Developer
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-6">
+        <img class="img-circle" src="images/krtkmj.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+        <h2><span>K</span>artik Maji</h2>
+        <br>B.Tech(2013-17), IIIT-Delhi<br><br>
+        Backend Developer
+        
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    
+        <hr>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2014 SHUTTLE INC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      
+		
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+  <script src="js/shuttle.js"></script>   
+
+  </body>
+</html>    

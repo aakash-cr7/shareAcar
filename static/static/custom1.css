@@ -1,0 +1,108 @@
+body {
+	width: 1300px;
+	/*background-color: black;*/
+	
+}
+.carpool {
+	padding-left: 40px;
+	padding-top: 40px;
+	/*outline: 2px solid black;*/
+}
+
+.info {
+	height: 300px;
+	width: 1300px;
+	/*margin-top: 420px;*/
+	background-color: white;
+	margin-left: 0px;
+	/*background-color: #66C266;*/
+	border-radius: 5px;
+}
+
+.para {
+	float: left;
+	width: 670px;
+	padding-top: 20px;
+}
+
+.pic {
+	float: right;
+	width: 600px;
+	padding-top: 20px;
+	
+}
+
+.row {
+	padding-left: 90px;
+}
+
+.jumbotron p {
+	font-size: 15px;
+}
+
+.signIn {
+	margin-top: 7px;
+	margin-right: 10px;
+	width: 150px;
+	
+}
+span{
+	color:#80B2B2;
+}
+.drop {
+	height: 200px;
+	width: 200px;
+	opacity: 0.5;
+	background-color: #E6E6E6;
+	position: absolute;
+		top: 50px;	
+		right: 0px; 
+	display: none;
+}
+
+footer {
+	background-color: black;
+	height:80px;
+	width:1348px;
+	color:white;
+	padding-left:15px;
+	font-size: 17px;
+	padding-top: 25px;
+}
+
+.para {
+	
+	padding-left:10px;	
+}
+
+.featurette-image {
+	border-radius: 8px;	
+}
+
+.carpool2{
+	height: 150px;
+	border-radius: 7px;
+	position:absolute;
+		top:120px;
+		right: 30px;
+		
+	}
+
+.signMe {
+	position: absolute;
+	top: 150px;
+	right: 0px;
+	width: 290px;
+	}	
+
+#login_form {
+	position: absolute;
+	right: 100px;
+	top:200px;
+}
+
+.abc {
+	text-decoration: none;
+	color: white;
+	
+	}
