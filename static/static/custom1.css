@@ -1,5 +1,5 @@
 body {
-	width: 1300px;
+	width: 1250px;
 	/*background-color: black;*/
 	
 }
@@ -7,11 +7,12 @@ body {
 	padding-left: 40px;
 	padding-top: 40px;
 	/*outline: 2px solid black;*/
+	width: 1250px;
 }
 
 .info {
 	height: 300px;
-	width: 1300px;
+	width: 1290px;
 	/*margin-top: 420px;*/
 	background-color: white;
 	margin-left: 0px;
@@ -21,7 +22,7 @@ body {
 
 .para {
 	float: left;
-	width: 670px;
+	width: 650px;
 	padding-top: 20px;
 }
 
@@ -63,7 +64,7 @@ span{
 footer {
 	background-color: black;
 	height:80px;
-	width:1348px;
+	width:1290px;
 	color:white;
 	padding-left:15px;
 	font-size: 17px;
@@ -104,5 +105,8 @@ footer {
 .abc {
 	text-decoration: none;
 	color: white;
-	
+	display: block;
+
 	}
+
+	
