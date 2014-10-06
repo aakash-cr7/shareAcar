@@ -49,10 +49,11 @@
       </div><!-- /.container-fluid -->
     </nav><!-- End of NavBar -->
 			<div class="myForm">
-			<h1>Join Now</h1>
+			   <div class="heading"><h1>Sign Up</h1></div>
 			<form method='POST' action=''>{% csrf_token %}
 				{{form.as_p}}
-				<input type="submit">
+				<br>
+				<input type="submit" value="Sign Up">
 			</form>
 			</div>
 <!-- FOOTER -->
