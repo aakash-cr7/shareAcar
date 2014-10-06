@@ -1,19 +1,27 @@
+body {
+	background-color: #94FF70;
+}
+
 .myForm {
-    outline: 2px solid black;
+    outline: 2px solid green;
     margin-top: 200px;
     margin-left: 350px;
     width: 450px;
     alignment-adjust: central;
     text-align: center;
+		padding-top: 10px;
+		padding-bottom: 15px;
+			 
 }
 
 footer {
 	background-color: black;
 	height:80px;
-	width:1348px;
+	width:1290px;
 	color:white;
 	padding-left:15px;
 	font-size: 17px;
 	padding-top: 25px;
         margin-top: 130px;
 }
+
