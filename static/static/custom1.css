@@ -10,6 +10,12 @@ body {
 	width: 1250px;
 }
 
+.userName:focus, .pwd:focus { 
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  padding: 3px 0px 3px 3px;
+  /*margin: 5px 1px 3px 0px;*/
+  border: 1px solid rgba(81, 203, 238, 1);
+}
 .info {
 	height: 300px;
 	width: 1290px;
@@ -100,6 +106,7 @@ footer {
 	position: absolute;
 	right: 100px;
 	top:200px;
+	/*border: 2px solid rgba(81, 203, 238, 1);*/
 }
 
 .abc {
